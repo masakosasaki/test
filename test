@@ -1,0 +1,4 @@
+@echo off
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce /v exec /t REG_SZ /d "wusa.exe C:\4512486.msu /quiet /forcerestart" /f
+wusa.exe "C:\4474419.msu" /quiet /norestart
+wusa.exe "C:\4490628.msu" /quiet /forcerestart
